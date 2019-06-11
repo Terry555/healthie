@@ -5,8 +5,4 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
-  def show
-    @user = User
-  end
-
 end
